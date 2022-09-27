@@ -1,3 +1,4 @@
+body{ font-family: 'Noto Sans Tamil', Roboto, sans-serif;}
 .App {
   text-align: center;
 }
@@ -24,9 +25,31 @@
   color: white;
 }
 
+.title a {
+  color: #3a3b39;
+  text-decoration: none;
+}
+.card-text{ color: #555;}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+.mt-2{ margin:0; padding: .5em 0; border-bottom: #ccc solid 1px; color: #555;}
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+  text-decoration: none;
+  line-height: 1.4;
+  color: #3a3b39;
+}
+
+
 .App-link {
   color: #61dafb;
 }
+.imgfit{ width: 100%; margin-bottom: .5em;}
 
 @keyframes App-logo-spin {
   from {
